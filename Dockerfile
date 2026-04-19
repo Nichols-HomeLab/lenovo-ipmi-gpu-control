@@ -1,5 +1,5 @@
 # Use an NVIDIA CUDA base image
-FROM nvidia/cuda:12.9.1-base-ubuntu22.04
+FROM nvidia/cuda:13.2.1-base-ubuntu22.04
 
 # Set environment variables from build-time arguments
 ENV HOST ${HOST}
